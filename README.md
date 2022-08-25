@@ -14,13 +14,21 @@ nomad coders github url:
 >https://github.com/nomadcoders
 
 ## Pages:
+
+`/Global`
 - [ ] Home
 - [ ] Join
 - [ ] Login
 - [ ] Search
-- [ ] User Detail
-- [ ] Edit Profile
-- [ ] Change Password
-- [ ] Upload
-- [ ] Video Detail
+
+`/Users`
+- [ ] See User
+- [ ] Log out
+- [ ] Edit my profile
+- [ ] Delete my profile
+
+`/Videos`
+- [ ] See Video
 - [ ] Edit Video
+- [ ] Delete Video
+- [ ] Upload Video
