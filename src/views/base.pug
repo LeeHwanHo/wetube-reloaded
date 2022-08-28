@@ -3,6 +3,20 @@ html(lang='ko')
     head
         meta(charset='utf-8')
         title #{pageTitle} | WETUBE
+        link(rel="stylesheet" href="https://unpkg.com/mvp.css")
     body
-        block content
+        header
+            if fakeUser.isLogged
+                small Hello #{fakeUser.username}
+            nav
+                ul 
+                    if fakeUser.isLogged
+                        li
+                            a(href="/logout") Log out
+                    else 
+                        li 
+                            a(href="/login") Log in
+            h1=pageTitle
+        main
+            block content
     include partials/footer.pug
